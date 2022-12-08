@@ -13,8 +13,6 @@ class App extends Component {
         //console.log("Life cycle method: 1-component");
     }
 
-    // First time component is rendered
-
     componentDidMount() {
         //console.log("Life cycle method: 3-componentDidMount");
         fetch("https://jsonplaceholder.typicode.com/users")
