@@ -49,7 +49,7 @@ class App extends Component {
 
         return (
             <div className="App">
-                <h1 className="app-title">Monsters Rolodex</h1>
+                <h1 className="app-title">React Monster Rolodex</h1>
 
                 <SearchBox
                     className="monsters-search-box"
